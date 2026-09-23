@@ -20,11 +20,9 @@ interface SearchParams {
 }
 
 const CATEGORY_ICONS: Record<string, string> = {
-  cigarettes: "https://ccw.delivery/wp-content/uploads/2026/05/CCW-Canadian-Cigarette-Wholesale-Canadian-Classics-Original-2-sib-card-840bf57646.webp",
-  cartons:    "https://ccw.delivery/wp-content/uploads/2026/05/CCW-Canadian-Cigarette-Wholesale-Canadian-Ultra-Lights-Premium-1-sib-card-840bf57646.webp",
-  cigars:     "https://ccw.delivery/wp-content/uploads/2026/05/CCW-Canadian-Cigarette-Wholesale-Prime-Time-Vanilla-2-sib-card-840bf57646.webp",
-  "rolling-products": "https://images.unsplash.com/photo-1512069772995-ec65ed45afd6?w=200&q=80",
-  accessories: "https://images.unsplash.com/photo-1519074069444-1ba4fff66d16?w=200&q=80",
+  cigarettes: "https://images.unsplash.com/photo-1544164559-2e6f48c22e9c?w=200&q=80",
+  cartons:    "https://images.unsplash.com/photo-1544164559-2e6f48c22e9c?w=200&q=80",
+  cigars:     "https://images.unsplash.com/photo-1565898001836-eddfd0c9c8d5?w=200&q=80",
 };
 
 async function getShopData(params: SearchParams) {
