@@ -114,7 +114,7 @@ export default async function ShopPage({
 
             {categories.map((cat) => {
               const isActive = activeCategory === cat.slug;
-              const iconUrl = cat.image ?? CATEGORY_ICONS[cat.slug];
+              const iconUrl = cat.image || CATEGORY_ICONS[cat.slug] || null;
               return (
                 <Link
                   key={cat.id}
