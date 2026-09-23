@@ -20,9 +20,9 @@ interface SearchParams {
 }
 
 const CATEGORY_ICONS: Record<string, string> = {
-  cigarettes: "https://images.unsplash.com/photo-1544164559-2e6f48c22e9c?w=200&q=80",
-  cartons:    "https://images.unsplash.com/photo-1544164559-2e6f48c22e9c?w=200&q=80",
-  cigars:     "https://images.unsplash.com/photo-1565898001836-eddfd0c9c8d5?w=200&q=80",
+  cigarettes: "https://ccw.delivery/wp-content/uploads/2026/05/CCW-Canadian-Cigarette-Wholesale-Canadian-Classics-Original-2-sib-card-840bf57646.webp",
+  cartons:    "https://ccw.delivery/wp-content/uploads/2026/05/CCW-Canadian-Cigarette-Wholesale-Canadian-Ultra-Lights-Premium-1-sib-card-840bf57646.webp",
+  cigars:     "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Cohiba_S1.jpg/400px-Cohiba_S1.jpg",
 };
 
 async function getShopData(params: SearchParams) {
